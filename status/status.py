@@ -13,7 +13,7 @@ class StatusFor7S(commands.Cog):
         await asyncio.sleep(10)
 
     @commands.group(name="statos")
-    async def status_group(self, ctx):
+    async def statos_group(self, ctx):
         pass
 
     @statos_group.command(name="start")
